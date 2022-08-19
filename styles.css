@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    border: 5px solid white;
+    color: #422219;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("images/lviv.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+h1 {
+    background: #E3D5CA;
+    margin-top: 150px;
+}
+
+h2 {
+    background: #D5BDAF;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    font-size: 15px;
+}
+
+#visit {
+    font-size: 40px;
+}
+
+.hero-el {
+    display: block;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-family: 'DynaPuff', cursive;
+}
+
+#activities {
+    background: #E3D5CA;
+    margin-top: -20px;
+}
+
+#images {
+    display: flex;
+    justify-content: space-around;
+}
+
+#h3-activ {
+    padding-top: 30px;
+    font-family: 'DynaPuff', cursive;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.activ-comp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h4text {
+    width: 150px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: 'DynaPuff', cursive;
+}
+
+.ptext {
+    width: 250px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#guide {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 40px auto 30px auto;
+    background: #D5BDAF;
+    padding: 10px 15px;
+    border-bottom: 5px solid #50281E;
+    border-radius: 15px;
+}
+
+#about-me {
+    font-size: 12px;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#name {
+    font-size: 13px;
+    font-weight: none;
+    margin-top: 30px;
+    font-family: 'DynaPuff', cursive;
+}
+
+#inform {
+    padding: 10px 20px;
+}
+
+#my-img {
+    width: 140px;
+}
+
+#guide-me {
+    font-family: 'DynaPuff', cursive;
+}
