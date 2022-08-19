@@ -20,7 +20,7 @@ img {
 }
 
 #hero {
-    background-image: url("images/lviv.jpg");
+    background-image: url("images/lviv.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
